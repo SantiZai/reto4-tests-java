@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Ejecutar Main",
+        "request": "launch",
+        "mainClass": "Main",
+        "projectName": "nombre-del-proyecto",
+        "classpath": [
+          "${workspaceFolder}/src",
+          "${workspaceFolder}/lib/*"
+        ]
+      },
+      {
+        "type": "java",
+        "name": "Ejecutar Tests JUnit",
+        "request": "launch",
+        "mainClass": "org.junit.platform.console.ConsoleLauncher",
+        "args": ["--scan-classpath", "--details", "tree"],
+        "classpath": [
+          "${workspaceFolder}/src",
+          "${workspaceFolder}/test",
+          "${workspaceFolder}/lib/*"
+        ]
+      }
+    ]
+  }

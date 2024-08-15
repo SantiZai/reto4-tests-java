@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "java",
+      "label": "java: Compilar y ejecutar proyecto",
+      "mainClass": "Main",
+      "classpath": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/lib/*"
+      ],
+      "args": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "java",
+      "label": "java: Ejecutar tests JUnit",
+      "mainClass": "org.junit.platform.console.ConsoleLauncher",
+      "args": ["--scan-classpath", "--details", "tree"],
+      "classpath": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/test",
+        "${workspaceFolder}/lib/*"
+      ]
+    }
+  ]
+}
