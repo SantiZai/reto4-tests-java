@@ -12,7 +12,7 @@ import javax.swing.JDialog;
  * <p><b>Nota:</b> Esta clase extiende {@code JDialog} y se usa principalmente para
  * mostrar información estática.</p>
  *
- * @author David
+ * @author Santiago
  * @version 1.0
  */
 public class Acerca extends JDialog {

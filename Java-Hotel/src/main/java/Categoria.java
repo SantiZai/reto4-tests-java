@@ -11,7 +11,7 @@ import java.io.*;
  * se serialicen y deserialicen, facilitando su almacenamiento y recuperación.
  * </p>
  *
- * @author TuNombre
+ * @author Santiago
  */
 public class Categoria implements Serializable {
 

@@ -11,7 +11,7 @@ import java.io.*;
  * <p>Hereda todos los métodos de {@code LinkedList} para gestionar la lista y
  * proporciona métodos de enumeración a través de la interfaz {@code Enumeration}.</p>
  *
- * @autor TuNombre
+ * @autor Santiago
  */
 public class ListaCategorias extends LinkedList implements Enumeration, Serializable {
 

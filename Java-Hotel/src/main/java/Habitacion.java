@@ -8,7 +8,7 @@ package src.main.java;
  * <p>Proporciona un constructor predeterminado para inicializar los valores de
  * cada habitación.</p>
  *
- * @autor TuNombre
+ * @autor Santiago
  */
 public class Habitacion {
 

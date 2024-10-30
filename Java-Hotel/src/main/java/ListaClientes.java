@@ -10,7 +10,7 @@ import java.io.*;
  * <p>Hereda todos los métodos de {@code LinkedList} para gestionar la lista,
  * proporcionando métodos para añadir, modificar y eliminar elementos.</p>
  *
- * @autor TuNombre
+ * @autor Santiago
  */
 public class ListaClientes extends LinkedList implements Serializable {
 

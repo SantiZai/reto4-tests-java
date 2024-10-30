@@ -11,7 +11,7 @@ import java.util.Date;
  * <p>Implementa la interfaz {@code Serializable} para facilitar la persistencia de
  * objetos de esta clase.</p>
  *
- * @author TuNombre
+ * @author Santiago
  */
 public class Cliente implements Serializable {
 

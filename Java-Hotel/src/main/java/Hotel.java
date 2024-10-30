@@ -9,7 +9,7 @@ import java.io.*;
  *
  * <p>El objeto {@code Hotel} se guarda en disco utilizando serialización.</p>
  *
- * @autor TuNombre
+ * @autor Santiago
  */
 public class Hotel {
 

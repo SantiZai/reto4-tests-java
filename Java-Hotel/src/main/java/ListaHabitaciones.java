@@ -9,7 +9,7 @@ import java.util.*;
  * <p>Hereda todos los métodos de {@code LinkedList} para gestionar la lista,
  * proporcionando funcionalidades para añadir, modificar y eliminar elementos.</p>
  *
- * @autor TuNombre
+ * @autor Santiago
  */
 public class ListaHabitaciones extends LinkedList {
 
